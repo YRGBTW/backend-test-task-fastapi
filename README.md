@@ -42,6 +42,14 @@ ADMIN_KEY = ADMIN
 docker-compose up -d --build
 ```
 
+**В случае возникновения следующей ошибки (обычно для Windows):**
+```
+/app/startup.sh: no such file or directory
+```
+
+**Нужно убедится, что все текстовые файлы (например, startup.sh) сохранены с индикатором конца строки LF (Line Feed), или иметь настройку: 
+```git config --global core.autocrlf true```**
+
 После запуска документация Swagger доступна по адресу /docs
 
 ---
