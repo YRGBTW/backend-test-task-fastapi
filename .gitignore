@@ -8,9 +8,6 @@ app/migrations/versions/*.pyc
 
 .idea/
 
-.env
-*.env
-
 .pytest_cache/
 htmlcov/
 .coverage
